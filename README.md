@@ -43,7 +43,8 @@ Di bagian "Install Script", cari kolom "Script Container".
 Ganti nilai default (misalnya ghcr.io/parkervcp/installers:debian) dengan salah satu image installer kustom Anda, misalnya: benigaming27/installer-debian:latest.
 Simpan Perubahan: Pastikan Anda menyimpan semua perubahan konfigurasi Egg.
 Buat/Reinstall Server: Ketika membuat server baru atau me-reinstall server yang sudah ada menggunakan Egg ini, server akan otomatis menggunakan image Docker yang sudah Anda kustomisasi dengan zona waktu Asia/Jakarta.
-Struktur Repositori
+Struktur Repositori :
+
 yolks/
 ├── games/
 │   └── samp/
@@ -56,6 +57,7 @@ yolks/
 │   └── ubuntu/
 │       └── Dockerfile             # Dockerfile untuk installer berbasis Ubuntu
 └── README.md                      # File ini
+
 Kontribusi & Lisensi
 Jika Anda menemukan masalah atau memiliki saran, jangan ragu untuk membuka Issue atau Pull Request.
 
